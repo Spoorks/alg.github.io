@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=pacifico');
+body{
+    background-color: coral;
+
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+}
+nav a{text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+header,main{
+    background-color: #f5f8bb;
+    border-radius: 20px;
+    padding: 20px;
+    min-height: 20px;
+}
+.imgtop{
+    width: 100px;
+    float: left;
+}
+nav li{
+    display: inline;
+    margin-left: 10px;
+}
+h1,h2{
+    font-family: 'pacifico', cursive;
+}
+main{
+    margin-top: 20px;
+    line-height: 1.5em;
+}
+
+@media only screen and (max-width : 800px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        text-align: center;
+        background-color: white;
+        font-size: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .imgtop{
+        display: none;
+    }
+    nav a{
+        display: inline-block;
+        width: 100%;
+        margin: 10px;
+        background-color: aquamarine;
+        text-align: center;
+        text-decoration: none;
+        margin-left: -8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    h2{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    ul{
+       list-style-type: none; 
+       margin-top: 20px;
+       margin-bottom: 0px;
+    }
+}
